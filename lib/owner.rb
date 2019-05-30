@@ -11,4 +11,15 @@ class Owner
     pet = Cat.new(name)
     @pets << pet
   end
+
+  def buy_dog(name)
+    pet = Dog.new(name)
+    @pets << pet
+  end
+
+  def buy_fish(name)
+    pet = Fish.new(name)
+    @pets << pet
+  end
+  
 end
