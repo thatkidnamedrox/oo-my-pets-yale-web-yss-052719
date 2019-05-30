@@ -21,5 +21,5 @@ class Owner
     pet = Fish.new(name)
     @pets << pet
   end
-  
+
 end
