@@ -62,6 +62,7 @@ class Owner
   end
 
   def list_pets
+    puts @pets[:fish]
     fish_count = @pets[:fish].size
     cat_count = @pets[:cats].size
     dog_count = @pets[:dogs].size
