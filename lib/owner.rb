@@ -8,8 +8,7 @@ class Owner
   end
 
   def buy_cat(name)
-    pet = Pet.new(name)
+    pet = Cat.new(name)
     @pets << pet
-
   end
 end
